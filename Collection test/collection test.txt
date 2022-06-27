@@ -1,0 +1,44 @@
+2)Explain diffrence between List and Set with example?  
+   LIST                                                    SET
+
+1) List is an Ordered Sequence.                       1) Set is an Unordered Sequence.
+
+2)List Allows Duplicates Elements.                    2) Set Does not allow duplicate Elements.
+                     
+3)Elements by their position can be accssed.          3) Position Access to elements is not allowed.
+
+4)Multiple Null Elements can be stored.               4) Null elements can be stored once.
+
+5)List Implements ArrayList,LinkedList.               5) Set implements HashSet,LinkedHashSet.
+
+EX : List<String> list=new ArrayList<String>();			EX : Set<String> set=new Hashset<String>();
+	list.add("suhas") ;							set.add("Shweta");
+
+
+3) Difference between Iterator and ListIterator
+
+
+          Iterator                                                        ListIterator
+
+1) Iterator can traverse elements present in                       1) Can Traverse elements in both direction.
+collection only in forward direction.
+                                                                   2) ListIterator can obtain indexes of elements at anytime while transversing List.
+2) Indexes cannot be obtained by using Iterator.
+                                                                   3) We can modify or replace elements with of set.
+3) Cannot modify or replace elements present in collection.
+                                                                   4) we can add elements to a collection at any time.
+4) Iterator as methods of next(),remove(),hasNext().
+
+
+
+7)Explain Linked List?
+--Linked List
+--Linked list is provides constant time for add and remove operation so it is better to use LL for manipulation.
+--Linked list has 0(n/2)time complexity to access the element.
+---LinkedList good for writing
+---LinkedList is better to manipulate data
+---Internally uses a doubly linked list to store the elements
+---It act as list and queces both because it implents list abd Deque interface
+---Better for manipulting
+---It is not contiguous
+---Faster because it uses double linked list
